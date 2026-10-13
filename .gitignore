@@ -1,0 +1,68 @@
+# Visual Studio / .NET ignoring rules for PaymentProcessorApp
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+out/
+
+# VS temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/packages/
+project.lock.json
+project.fragment.lock.json
+
+# Publish outputs
+publish/
+*.Publish.xml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Test results
+TestResults/
+*.trx
+
+# Logs
+*.log
+
+# LocalDB / SQLite files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# User secrets and local settings
+secrets.json
+local.settings.json
+
+# Node
+node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# JetBrains Rider caches
+.idea/
+
+# Generated package directories
+*/bin/
+*/obj/
